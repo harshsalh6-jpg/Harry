@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salon Booking System Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f0f0f;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #111, #1f1f1f);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background: #333;
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #888;
+      font-size: 14px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #bbb;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    nav {
+      background: #181818;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #d4af37;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 25px;
+      color: #d4af37;
+    }
+
+    .card {
+      background: #181818;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: #252525;
+      padding: 10px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .contact a {
+      color: #d4af37;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #111;
+      color: #777;
+      font-size: 14px;
+    }
+
+    @media(max-width:768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="profile-pic">Your Photo</div>
+    <h1>Salon Booking System</h1>
+    <p>Modern salon booking and management platform designed to streamline appointments, manage clients, and improve salon operations efficiently.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="card">
+      <p>
+        A professional salon booking system developed to help salons automate appointments,
+        manage customer records, send reminders, and improve business efficiency with an intuitive digital platform.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card skills">
+      <div class="skill">Booking Management</div>
+      <div class="skill">Appointment Scheduling</div>
+      <div class="skill">Client Database</div>
+      <div class="skill">WhatsApp Integration</div>
+      <div class="skill">Responsive Design</div>
+      <div class="skill">Payment Integration</div>
+      <div class="skill">Admin Dashboard</div>
+      <div class="skill">Notifications System</div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+      <h3>Salon Management Platform Development</h3>
+      <p><strong>Role:</strong> Full Stack Developer / System Designer</p>
+      <p>
+        Built and optimized a complete salon appointment booking platform with admin controls,
+        customer booking interface, automated reminders, and analytics dashboard.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Smart Salon Booking Website</h3>
+      <p>
+        A responsive web-based booking platform allowing clients to schedule appointments,
+        choose services, select stylists, and contact salon directly via WhatsApp.
+      </p>
+      <p><strong>Live Demo:</strong> <a href="#" style="color:#d4af37;">Your Project Link</a></p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card contact">
+      <a href="#">Email: your@email.com</a>
+      <a href="#">WhatsApp: +91 XXXXX XXXXX</a>
+      <a href="#">Portfolio: yourwebsite.com</a>
+      <a href="#">LinkedIn: linkedin.com/in/yourprofile</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Salon Booking System Portfolio. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
